@@ -1,7 +1,7 @@
 // console.log(2>1);
 // console.log(2==2);
 // console.log(3<2);
-
+console.log("changes");
 // console.log("2">1); // always true to compare same data type not like this the different one (one string and one nmber)
 
 // console.log(null > 0);
