@@ -23,4 +23,5 @@ let myObj = {
 
 const myFunction = function(){
     console.log("hello world");
-} // function
+}
+// function
