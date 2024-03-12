@@ -25,3 +25,23 @@ const myFunction = function(){
     console.log("hello world");
 }
 // function
+
+/* ************************************ */
+// Stack memory, Heap memory
+let myYoutubename = "code with harry"
+let anotherName = myYoutubename
+anotherName = "Code with rishabh"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl" 
+}
+let userTwo = userOne
+// object ki value ko . laga ke direct access karte hai
+userTwo.email = "maker@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
