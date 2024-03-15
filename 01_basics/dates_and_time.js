@@ -35,6 +35,13 @@ let myTimeStamp = Date.now()
 //------------- basics complete ----------
 // Now some more methods 
 let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getDay());
-console.log(newDate.getMonth());
+//console.log(newDate);
+//console.log(newDate.getDay());
+//console.log(newDate.getMonth());// here also month start from zero so we do (newDate.getMonth() + 1);
+//console.log(newDate.getMonth() + 1);
+
+// stirng interpolation ese likhenge      `${newDate.getDay()} and the time is`
+
+newDate.toLocaleString('Default', {
+    weekday: "long", // we add more properties
+})
